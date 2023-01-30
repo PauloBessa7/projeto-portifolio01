@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*--------------Body---------------*/
+a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+/*--------------Main---------------*/
+main{
+  border: 4px solid black;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom,rgba(173, 216, 230, 0.904),white);
+}
+/*--------------Header---------------*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 100px;
+}
+
+header > nav > ul > li{
+  display: inline ;
+  margin-left:30px;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+header > nav > ul > li:hover{
+  background-color: white;
+  transition-duration: .3s;
+}
+/*-------------- Section---------------*/
+Section{
+  border: .1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 90px;
+  padding: 30px;
+  border-radius: 10px;}
+  
+/*-------------- Section id projeto---------------*/
+
+  section#projetos{
+  border: none;
+  display: block;
+  margin: 50px 90px;
+  }
+
+  section#projetos >h2 {
+    border: .1px solid black;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  img#info{
+    background-image: url(Assets/a.PNG);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    max-height: 200px;
+    max-width: 400px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  section#projetos>aside{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  section#projetos > aside{
+    margin: 70px;
+  }
+/*--------------Article---------------*/
+article{
+  max-width: 700px;
+}
+h1{
+  font-size: 60px;
+}
+p{
+  max-width: 500px;
+  text-align: justify;
+  font-size: bolder;
+  line-height: 1.1em;
+  font-family: 'Poppins';
+}
+article > nav{
+  margin-top: 20px;
+}
+article > nav > ul > li{
+  display: inline ;
+  padding-left:30px;
+}
+
+
+/*--------------Aside---------------*/
+Aside > div#foto{
+  background-image: url(WhatsApp\ Image\ 2021-12-14\ at\ 19.40.52.jpeg);
+  background-position: center bottom;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 2px solid black;
+  background-size: cover;
+}
+/*--------------=====---------------*/
+
